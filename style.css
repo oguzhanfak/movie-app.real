@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #363d6b;
+    font-family: "Poppins";
+}
+.header{
+    display: flex;
+    /* flex-direction: column; */
+    flex-direction: row;
+    justify-content: flex-end;
+    /* align-items: flex-end; */
+}
+#searchInput{
+    padding: 5px;
+    border-radius: 50px;
+    background-color: transparent;
+    outline: none;
+    margin-top: 15px;
+    margin-right: 25px;
+    color: #fff;
+}
+#searchInput::placeholder{
+    color: #16c44a;
+    font-size: 12px;
+    text-align: center;
+}
+.movies{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.movie{
+    margin: 10px;
+    width: 260px;
+    height: 400px;
+    background-color: #3e4a99;
+}
+.moviePicture{
+    width: 260px;
+    height: 320px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.movieName{
+
+    font-size: 13px;
+    color: lightgrey;
+    margin-right: 10px;
+}
+.imdbPoint{
+    font-size: 17px;
+    color: black;
+    background-color: rgb(154, 180, 37);
+    padding: 3px;
+}
+.green{
+    background-color: #138836;
+    color: #fff;
+}
+.red{
+    background-color: rgb(134, 20, 20);
+    color: #fff;
+}
+.yellow{
+    background-color: rgb(216, 216, 30);
+    color: black;
+}
